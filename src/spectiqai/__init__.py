@@ -1,0 +1,1 @@
+"""SpectiqAI project package."""

@@ -1,0 +1,18 @@
+{
+  "model_checkpoint_path": "models/simple_cnn/simple_cnn_epoch_3.pt",
+  "image_size": 224,
+  "tumor_threshold": 0.85,
+  "confidence_threshold": 0.90,
+  "class_names": {
+    "0": "Normal",
+    "1": "Tumor"
+  },
+  "ood_bounds": {
+    "r_mean": [110.0, 170.0],
+    "g_mean": [38.0, 135.0],
+    "b_mean": [14.0, 92.0],
+    "r_std": [35.0, 75.0],
+    "g_std": [80.0, 120.0],
+    "b_std": [38.0, 105.0]
+  }
+}

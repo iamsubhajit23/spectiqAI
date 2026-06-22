@@ -1,0 +1,2 @@
+model,accuracy,precision,recall,f1_score,true_positive,true_negative,false_positive,false_negative
+efficientnet_b0,0.5846666666666667,0.7414448669201521,0.26,0.384995064165844,195.0,682.0,68.0,555.0

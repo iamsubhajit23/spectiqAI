@@ -1,0 +1,110 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller Spec
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django/logs
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Sphinx documentation
+docs/_build/
+
+# Jupyter Notebook / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder/VS Code/IntelliJ project settings
+.spyderproject
+.spyproject
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Project-specific paths
+dataset/
+results/temp_reports/
+results/audit_log.jsonl
+
+# Model Checkpoints (Ignore intermediate epochs, track only production checkpoints)
+models/simple_cnn/simple_cnn_epoch_1.pt
+models/simple_cnn/simple_cnn_epoch_2.pt
+models/transfer_learning/resnet50/resnet50_epoch_1.pt
+models/transfer_learning/resnet50/resnet50_epoch_2.pt
+models/transfer_learning/resnet50/resnet50_epoch_3.pt
+models/transfer_learning/resnet50/resnet50_epoch_4.pt
+models/transfer_learning/efficientnet_b0/efficientnet_b0_epoch_1.pt
+models/transfer_learning/efficientnet_b0/efficientnet_b0_epoch_2.pt
+models/transfer_learning/efficientnet_b0/efficientnet_b0_epoch_3.pt
+models/transfer_learning/efficientnet_b0/efficientnet_b0_epoch_4.pt
+
+# Extra system and temporary audit files
+.jupyter/
+_deploy_audit/
+results/test_clinical_report.pdf
+results/test_gradcam_heatmap_tumor.png
+
